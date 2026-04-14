@@ -4,6 +4,7 @@ import Activity from './pages/Activity.jsx';
 import Calendarx from './pages/Calendar.jsx';
 
 const router = createBrowserRouter([
+
   {
     path: "/",
     element: <Home />,
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+  return <RouterProvider router={router} baseName="/CulturalSchedule" />;
 }
 
 export default App;
