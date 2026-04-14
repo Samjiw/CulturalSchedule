@@ -1,0 +1,38 @@
+.categorycard {
+
+    border: 1px, solid, #d9d9d9;
+    border-radius: 8px;
+    width: 232px;
+    height: 132px;
+}
+
+.categorycard.selected-card {
+    border: 1px solid #8f8f8f;
+}
+
+.i {
+    width: 250px;
+    height: 170px;
+    cursor: pointer;
+}
+
+.div1 {
+    position: absolute;
+    top: 73%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.x11 {
+    font-family: inter;
+    margin-left: 6px;
+}
+
+.nextbutton {
+    background-color: #5fCCa1;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}

@@ -1,0 +1,81 @@
+.Culture {
+    color: #FFD700;
+    font-family: inter;
+}
+
+.Life {
+    background: linear-gradient(to bottom, #00FF9A, #D67729);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-family: inter;
+}
+
+.homebutton {
+    background-color: #5fCCa1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.homebutton:hover {
+    background-color: #4dbd8c;
+}
+
+.header {
+    margin-left: 20px;
+    margin-top: 20px;
+    position: fixed;
+}
+
+.MainText {
+    font-family: inter;
+    font-size: 60px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 80px;
+}
+
+.ModalTitle {
+    font-family: inter;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.x {
+    font-family: inter;
+    font-weight: 400;
+    text-align: center;
+    margin-left: -20px;
+}
+
+.x1 {
+    font-family: inter;
+    font-weight: 400;
+    text-align: center;
+    margin-left: -15px;
+}
+
+.Flex {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.headtext {
+    font-family: inter;
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+}

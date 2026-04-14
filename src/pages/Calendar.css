@@ -1,0 +1,105 @@
+:root {
+    --font-family24: inter;
+
+
+}
+
+.fc {
+    font-family: var(--font-family24);
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 400px;
+    width: 1000px;
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    font-weight: 200;
+}
+
+.fc .fc-col-header-cell-cushion {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.page-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9fafb;
+}
+
+.calendar-layout {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 320px;
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.calendar-main {
+    flex: 1;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+}
+
+.cultural-suggestion-card {
+    margin-bottom: 12px;
+    border: none !important;
+    background: #f0fdf4 !important;
+    /* Soft green */
+    position: relative;
+    overflow: hidden;
+}
+
+.card-accent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #5fcca1;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.instruction-text {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 16px 0;
+}
+
+.privacy-alert {
+    margin-top: auto;
+    background: #fffbeb;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #92400e;
+}
+
+.backbutton {
+    background-color: #5fCCa1;
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
