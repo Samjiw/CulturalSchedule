@@ -20,7 +20,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} baseName="/CulturalSchedule" />;
+  return <RouterProvider router={router} baseName={import.meta.env.BASE_URL} />;
 }
 
 export default App;
